@@ -1,0 +1,23 @@
+{
+  "name": "profitable-flashloans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@studydefi/money-legos": "^2.4.2",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "@uniswap/sdk": "^3.0.3",
+    "dotenv": "^10.0.0",
+    "web3": "^1.4.0",
+    "websocket": "^1.0.34"
+  }
+  "engines": {
+    "node": "14.x"
+  }
+}
