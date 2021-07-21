@@ -145,4 +145,6 @@ contract Flashloan is ICallee, DydxFlashloanBase {
 
         solo.operate(accountInfos, operations);
     }
+
+    function() external payable {}
 }
